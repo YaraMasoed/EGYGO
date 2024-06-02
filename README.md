@@ -1,2 +1,2 @@
 # EGYGO
-A travel guide website in engypt
+A travel guide website in egypt
