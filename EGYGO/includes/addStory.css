@@ -1,0 +1,274 @@
+/*-------Sara-----*/
+.container1 {
+    padding: 20px;
+    width: 60%;
+    margin: 100px auto;
+    border: 0.1px solid #827c7c;
+    height: 540px;
+}
+
+.container1 header {
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    border-radius: 15px;
+    box-shadow: 1px;
+}
+
+.wrapper {
+    display: flex
+}
+
+.story-details {
+    width: 50%;
+    height: 497px;
+    padding: 0px;
+    margin: 0px;
+    display: block
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.story-caption {
+    border-radius: 15px;
+    width: 98%;
+    padding: 0 10px;
+    height: 180px;
+    display: block;
+}
+
+.img-box {
+    position: relative;
+    width: 50%;
+    height: 440px;
+    background: rgb(243, 238, 238);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box .ri-image-add-fill {
+    font-size: 100px;
+}
+
+.image-prev {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: centre;
+    overflow: hidden;
+}
+
+.image-prev img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.location {
+    border-radius: 15px;
+    width: 98%;
+    padding: 0 10px;
+    display: block;
+}
+
+.location-icon {
+    display: flex;
+}
+
+.addStory-btn {
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+
+}
+
+.cancel-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-weight: 300px;
+    font-size: 40px;
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+}
+
+
+.reply {
+    padding-left: 400px;
+    display: none;
+}
+
+.reply label {
+    display: block;
+    font-weight: bold;
+
+}
+
+.reply textarea {
+    width: 95%;
+}
+
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.feed h1 {
+    font-size: 1.7rem;
+}
+
+.feed-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.feed-text h2 {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.main-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    gap: 7px;
+}
+
+.container1 {
+    padding: 10px;
+}
+
+.post-box {
+    width: 290px;
+}
+
+.post-box-img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+
+.post-box img {
+    width: 100%;
+    background: rgba(12, 24, 86, 0.644);
+    height: 344px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: 0.6s;
+}
+
+.post-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.post-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.post-img img {
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+
+.post-profile h3 {
+    font-size: 12px;
+    font-weight: 600px;
+    margin-left: 5px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.likes i {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.likes span {
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.like,
+.comment {
+    background: transparent;
+    color: grey;
+    outline: none;
+    border: none;
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+.comment:hover {
+    cursor: pointer;
+}
+
+.more {
+    text-align: center;
+    align-items: center;
+    font-family: 'freestyle script';
+    font-size: 40px;
+}
+
+.more .addStory {
+    background-color: rgb(20, 73, 152);
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, #2b2ee4 0%, #bfe9ff 51%, #e8aa18 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'freestyle script';
+    font-size: 20px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+
+}
+
+.more .addStory:hover {
+    background-color: rgb(144, 161, 203);
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
